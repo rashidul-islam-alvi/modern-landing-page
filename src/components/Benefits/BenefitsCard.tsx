@@ -1,5 +1,3 @@
-import React from "react";
-
 const BenefitsCard = () => {
   return (
     <div className=" flex flex-col  gap-5 md:gap-0 border-[1px] rounded-xl h-[90%] px-5 py-5 text-white">

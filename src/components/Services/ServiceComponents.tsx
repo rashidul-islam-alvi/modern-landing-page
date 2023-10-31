@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ServiceComponentProps {
   service: {
     id: number;

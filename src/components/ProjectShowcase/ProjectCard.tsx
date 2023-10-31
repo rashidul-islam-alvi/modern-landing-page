@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProjectCard = () => {
   return (
     <div className="flex flex-col justify-between h-full p-5 mb-10 ">
