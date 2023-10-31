@@ -2,13 +2,13 @@ const Footer = () => {
   return (
     <div className="flex flex-col my-10 text-white gap-y-10 md:items-center md:my-20 md:flex-row">
       <div className="flex flex-col flex-auto gap-5 py-5 border-t-2 md:py-0 md:border-t-0 md:gap-20 md:w-2/4">
-        <h2 className="text-2xl font-semibold md:text-3xl">
+        <h2 className="text-2xl md:w-[60%] font-semibold md:text-3xl">
           Subscribe to our newsletter to stay in touch with the latest
         </h2>
         <input
           type="text"
           placeholder="Your email here..."
-          className="md;w-[60%] py-5 px-5 rounded-full text-black"
+          className="md:w-[60%] py-5 px-5 rounded-full text-black"
         />
       </div>
       <div className="flex-auto py-5 border-t-2 md:w-1/4 md:py-0 md:border-t-0">
