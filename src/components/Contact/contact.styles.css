@@ -1,0 +1,9 @@
+.contact-bg-gradiant {
+  background: rgb(47, 46, 123);
+  background: radial-gradient(
+    circle,
+    rgba(47, 46, 123, 1) 0%,
+    rgba(0, 0, 0, 1) 45%,
+    rgba(47, 46, 112, 1) 100%
+  );
+}

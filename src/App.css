@@ -1,0 +1,26 @@
+#root {
+  padding: 0 10rem;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0 1rem; /* Adjust the padding for small devices */
+  }
+}
+
+section {
+  clip-path: polygon(79% 0, 100% 15%, 100% 100%, 0 100%, 0 0);
+}
+
+.slider-transition {
+  transition: transform 0.5s ease-in-out; /* Adjust the duration and easing as needed */
+}
+
+.slide-left {
+  transform: translateX(-100%); /* Slide to the left */
+}
+
+.slide-right {
+  transform: translateX(100%); /* Slide to the right */
+}

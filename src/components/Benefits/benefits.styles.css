@@ -1,0 +1,9 @@
+.benefits-bg-gradiant {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(240, 172, 85, 0.5) 48%,
+    rgba(6, 6, 6, 1) 100%
+  );
+}
