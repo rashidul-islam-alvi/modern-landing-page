@@ -2,7 +2,7 @@ import TestimonialSlider from "./TestimonialSlider";
 
 const Testimonial = () => {
   return (
-    <div className="flex flex-col text-white bmd:gap-y-10 ">
+    <div className="flex flex-col text-white md:gap-y-10 ">
       <div className="flex flex-col justify-between w-full gap-5 my-5 md:gap-0 md:flex-row md:my-10 h-fit">
         <div className="flex-auto md:w-2/6 ">
           <div className="flex items-center p-5 border-2 rounded-full w-fit h-fit">
